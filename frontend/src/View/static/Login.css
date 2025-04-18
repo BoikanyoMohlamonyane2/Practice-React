@@ -1,0 +1,148 @@
+/* Login.css */
+
+/* Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Box */
+.login-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.login-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4f46e5;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.input-group input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+.error {
+color: #900202;
+}
+/* Login Button */
+.login-btn {
+    text-align: center;
+    background-color: #1da740df;
+    padding: 0.75rem;
+    font-size: 16px;
+    color: #374151;
+    text-decoration: none;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    /* Add this line */
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #43a047;
+}
+
+/* Terms Text */
+.terms {
+  font-size: 13px;
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+/* Create Account Link Styled as Button */
+.create-account-btn {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 0.75rem;
+  font-size: 16px;
+  color: #374151;
+  text-decoration: none;
+  border-radius: 8px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.create-account-btn:hover {
+  background-color: #d1d5db;
+}
+/* Password input wrapper */
+.password-group {
+  position: relative;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  flex: 1;
+  padding-right: 40px;
+  /* room for icon */
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.toggle-password:hover {
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
