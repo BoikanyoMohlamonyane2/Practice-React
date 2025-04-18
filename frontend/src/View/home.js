@@ -78,7 +78,7 @@ function Home() {
         </div>
     
       ) : (
-        <p>User data not available</p>
+        <p>User data not available try again please...</p>
       )}
 </div>
       {/* Chat Section */}
