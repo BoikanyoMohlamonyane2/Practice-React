@@ -191,5 +191,5 @@ app.get('/users', (req, res) => {
 
 // Start the server
 app.listen(8081, () => {
-    console.log("Listening on port 8081");
+    console.log("Listening on ports 8081");
 });
