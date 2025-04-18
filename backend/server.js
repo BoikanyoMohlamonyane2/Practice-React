@@ -65,7 +65,7 @@ app.post('/signup', upload.single('image'), (req, res) => {
                 console.error(err);
                 return res.status(500).json("Error with inserting");
             }
-            return res.status(200).json({ message: "User registered successfully", data: data });
+            return res.status(200).json({ message: "User registered successfully..", data: data });
         });
     });
 });
